@@ -10,9 +10,29 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@discordjs/opus": "^0.8.0",
     "@discordjs/rest": "^1.3.0",
+    "@distube/soundcloud": "^1.2.2",
+    "@distube/spotify": "^1.4.2",
+    "@distube/yt-dlp": "^1.1.3",
     "@types/node": "^18.0.6",
+    "axios": "^1.1.3",
+    "consola": "^2.15.3",
+    "convert-seconds": "^1.0.1",
     "discord.js": "^14.6.0",
-    "node-fetch": "^3.2.6"
+    "distube": "^4.0.4",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "ffmpeg-static": "^4.4.1",
+    "get-image-colors": "^4.0.1",
+    "image-color-picker": "^1.0.0",
+    "node-fetch": "^3.3.0",
+    "opusscript": "^0.0.8",
+    "python-shell": "^3.0.1",
+    "random-reddit": "^2.0.3",
+    "react-native-image-color-picker": "^1.0.4",
+    "request": "^2.88.2",
+    "string-progressbar": "^1.0.4",
+    "urban-dictionary": "^3.0.2"
   }
 }

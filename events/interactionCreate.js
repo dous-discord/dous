@@ -3,7 +3,7 @@ module.exports = {
 	once: false,
 	async execute(interaction) {
 		if (!interaction.isChatInputCommand()) return;
-        const command = interaction.client.generalCommands.get(interaction.commandName);
+        let command = interaction.client.generalCommands.get(interaction.commandName)
         if (!command) return;
         try {
             await command.execute(interaction);
