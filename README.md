@@ -29,11 +29,6 @@ npm start
 ```
 <b>The Bot Should Get Online<b>
 
-## 🖼️ Images
-<img src="img1.png">
-<img src="img2.png">
-<img src="img3.png">
-<img src="purge.png">
 
 ## 📺 Updates
 we are always adding more stuff!
