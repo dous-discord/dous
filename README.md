@@ -1,4 +1,4 @@
-# Dous
+# 🍁About
 Dous is a Multi-Purpose Discord Bot.
 <br>
 
@@ -10,4 +10,8 @@ Its  commands include:<br>
 `/define` - Define a word(no dont take them seriously)<br>
 `/loop`- Loop a song<br>
 … and much more<br>
+
+
+## ✔️ How to Run
+
 
