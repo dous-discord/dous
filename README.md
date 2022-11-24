@@ -30,7 +30,8 @@ npm start
 <b>The Bot Should Get Online<b>
 
 ## 🖼️ Images
+  
 
 
 ## 📺 Updates
-
+we are always adding more stuff!
