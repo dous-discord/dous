@@ -25,7 +25,8 @@ client.distube = new DisTube(client, {
     }),
     new SoundCloudPlugin(),
     new YtDlpPlugin()
-  ]
+  ],
+  youtubeCookie: process.env.YOUTUBE_COOKIE
 })
 
 const eventsPath = path.join(__dirname, 'events');

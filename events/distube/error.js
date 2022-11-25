@@ -6,7 +6,7 @@ module.exports = {
 		  channel.send('I can\'t Join that Voice Channel')
 		  return;
 	  }
-	  channel.send(`An Error Occured While Executing That Command \n||${error}||`)
+	  channel.send(`An Error Occured While Executing That Command \n||${error}||\nPlease Report at https://discord.gg/BgMhGRyvZY`)
           console.log(error)
   },
 }
