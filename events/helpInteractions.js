@@ -5,7 +5,7 @@ module.exports = {
   name: 'interactionCreate',
   once: false,
   async execute(interaction) {
-    const generalCommandsPath = path.join(path.resolve("../dous/commands/general"));
+    const generalCommandsPath = path.join(path.resolve("../src/commands/general"));
     const generalCommandFiles = fs.readdirSync(generalCommandsPath).filter(file => file.endsWith('.js'));
     const gcmds = []
     for (const file of generalCommandFiles) {
@@ -13,7 +13,7 @@ module.exports = {
       const command = require(filePath);
       gcmds.push(`\`/${command.data.name}\` - ${command.data.description}`)
     }
-    const funCommandsPath = path.join(path.resolve("../dous/commands/fun"));
+    const funCommandsPath = path.join(path.resolve("../src/commands/fun"));
     const funCommandFiles = fs.readdirSync(funCommandsPath).filter(file => file.endsWith('.js'));
     const fcmds = []
     for (const funfile of funCommandFiles) {
@@ -21,7 +21,7 @@ module.exports = {
       const funcommand = require(funfilePath);
       fcmds.push(`\`/${funcommand.data.name}\` - ${funcommand.data.description}`)
     }
-    const musicCommandsPath = path.join(path.resolve("../dous/commands/music"));
+    const musicCommandsPath = path.join(path.resolve("../src/commands/music"));
     const musicCommandFiles = fs.readdirSync(musicCommandsPath).filter(file => file.endsWith('.js'));
     const mucmds = []
     for (const musicfile of musicCommandFiles) {
@@ -29,7 +29,7 @@ module.exports = {
       const musiccommand = require(musicfilePath);
       mucmds.push(`\`/${musiccommand.data.name}\` - ${musiccommand.data.description}`)
     }
-    const modCommandsPath = path.join(path.resolve("../dous/commands/mod"));
+    const modCommandsPath = path.join(path.resolve("../src/commands/mod"));
     const modCommandFiles = fs.readdirSync(modCommandsPath).filter(file => file.endsWith('.js'));
     const mcmds = []
     for (const modfile of modCommandFiles) {
