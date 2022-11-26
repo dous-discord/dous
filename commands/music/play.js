@@ -20,6 +20,6 @@ module.exports = {
        } catch(e) {
            interaction.reply({ content: `I couldn't join that channel!`, ephemeral: true })
        }
-    interaction.reply({ content: `Adding Song: \`${songName}\`` })
+    interaction.reply({ content: `Adding Song: \`${interaction.options.getString('songname')}\`` })
   },
 };
