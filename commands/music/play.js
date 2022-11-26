@@ -9,8 +9,8 @@ module.exports = {
         .setDescription('Name of the song you want to play')
         .setRequired(true)),
   async execute(interaction) {
+    const songName = await interaction.options.getString('songname')
     try{
-         const songName = interaction.options.getString('songname')
          if (!interaction.member.voice.channel) return interaction.reply({ content: 'Join a VC', ephemeral: true });
          interaction.client.distube.play(interaction.member.voice.channel, songName, {
             member: interaction.member,
